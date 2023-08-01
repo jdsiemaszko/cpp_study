@@ -50,6 +50,7 @@ short int no_of_sols(double a, double b, double c, double &x1, double &x2) {
 
 int main() {
     // std::cout << binomial(17,  13)<<std::endl;
+    //ugh
 
     double a = 1.0;
     double b = 69.0;
