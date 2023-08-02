@@ -8,6 +8,14 @@ void write(int array[], int N) { // passing the address of the first element
     return;
 }
 
+void write(int array[][2], int N) {
+    for (int i = 0; i < N; i++) {
+        std::cout << "( " << array[i][0] << "; " << array[i][1] << " )" << std::endl;
+    }
+    std::cout << "\n";
+    return;
+}
+
 int sum_array(int array[], int N) {
     int s = 0;
 
